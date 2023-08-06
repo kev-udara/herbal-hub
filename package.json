@@ -19,7 +19,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "server:debug": "node --nolazy --inspect-brk=9229 server",
-    "deploy": "ng build --prod --base-href https://github.com/kev-udara/New-Project.git/ && angular-cli-ghpages --branch gh-pages",
+    "deploy": "ng build --prod --base-href https://github.com/kev-udara/herbal-hub.git/ && angular-cli-ghpages --branch gh-pages",
     "copy:assets": "cpx 'src/assets/**' 'dist/assets'"
   },
   "private": true,
